@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numbers = [12, 25, 37, 45, 52, 60, 73, 88]; 
+        let firstGreaterThan50 = null;
+
+            for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 50) {
+                    firstGreaterThan50 = numbers[i];
+                    break;
+                    }
+                }
+
+                if (firstGreaterThan50 !== null) {
+                        console.log("The first number greater than 50 is: " + firstGreaterThan50);
+                    } 
+                else {
+                  console.log("There is no number greater than 50 in the array.");
+                }
+    </script>
+</body>
+</html>
